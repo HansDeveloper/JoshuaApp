@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">ITCR Asistencia</string>
+    <string name="login_user">Usuario</string>
+    <string name="login_pass">Contrasenia</string>
+    <string name="login_button">Inicia sesion</string>
+    <string name="hora_salida">Hora de salida</string>
+    <string name="check">Checar</string>
+    <string name="hora_entrada">Hora de entrada</string>
+    <string name="empleado_detail">Detalle</string>
+    <string name="ubication">Ubicacion</string>
+    <string name="admin_home_textview_text">Empleados</string>
+    <string name="title_activity_test">Test</string>
+    <string name="tab_text_1">Empleado</string>
+    <string name="tab_text_2">Ubicacion</string>
+    <string name="tab_text_3">tres</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_detail_admin">DetailAdminActivity</string>
+    <string name="fecha_text">Fecha</string>
+    <string name="hora_text">Horario</string>
+    <string name="rol_text">Rol</string>
+    <string name="uncheck_text">Uncheck</string>
+    <string name="succes_check_in">Se registró hora de entrada adecuadamente</string>
+    <string name="succes_uncheck_in">Se registró hora de salida con éxito</string>
+    <string name="title_activity_ubication_fragment2">Map</string>
+    <string name="wrong_user_or_pass_text">Usuario o contrasenia incorrectos</string>
+</resources>

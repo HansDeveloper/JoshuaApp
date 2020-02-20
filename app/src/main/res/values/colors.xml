@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4e8363</color>
+    <color name="colorPrimaryDark">#4e8363</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="color_button">#67e0a6</color>
+    <color name="white">#FFFFFF</color>
+    <color name="background_opacity">#52b5c0</color>
+    <color name="background_color">#c3edf6</color>
+    <color name="content_text_color">#80FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="home_employee_framelayout_background">#40808080</color>
+</resources>

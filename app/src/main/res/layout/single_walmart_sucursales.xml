@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/sucursal_name"
+            style="@style/sucursalesText"
+            android:layout_marginTop="@dimen/sucursal_text_margin_top"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/sucursal_phone"
+            style="@style/sucursalesText"
+            android:layout_marginBottom="@dimen/sucursal_text_margin_bottom"
+            android:text="TextView" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/sucursal_zip"
+            style="@style/sucursalesText"
+            android:layout_marginTop="@dimen/sucursal_text_margin_top"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/sucursal_horario"
+            style="@style/sucursalesText"
+            android:layout_marginBottom="@dimen/sucursal_text_margin_bottom"
+            android:text="TextView" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout>
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".screens.HomeEmpledoUnCheckActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/background_color">
+
+            <TextView
+                android:id="@+id/textView11"
+                style="@style/mainTextHomeEmployee"
+                android:text="Enrique Guzman" />
+
+            <FrameLayout
+                android:layout_width="@dimen/home_employee_framelayout_width"
+                android:layout_height="@dimen/home_employee_framelayout_height"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/home_employee_framelayout_background"
+                android:layout_marginBottom="@dimen/home_employee_hour_textview_marginbottom">
+
+                <TextView
+                    android:id="@+id/textView12"
+                    style="@style/hourTextEmployee"
+                    android:text="16:40" />
+            </FrameLayout>
+
+            <Button
+                android:id="@+id/home_empleado_uncheck_button"
+                style="@style/homeEmployeeButton"
+                android:text="@string/uncheck_text" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>
+
